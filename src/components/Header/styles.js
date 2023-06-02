@@ -1,5 +1,5 @@
-import { styled } from "styled-components";
-import { ReactComponent as LogoSVG } from "../../assets/logo.svg";
+import { styled } from 'styled-components'
+import { ReactComponent as LogoSVG } from '../../assets/logo.svg'
 
 export const Logo = styled(LogoSVG)`
   height: 40px;
@@ -10,7 +10,7 @@ export const Logo = styled(LogoSVG)`
     height: 33px;
     width: 222px;
   }
-`;
+`
 
 export const HeaderContainer = styled.header`
   background: #ffbccc;
@@ -27,4 +27,4 @@ export const HeaderContainer = styled.header`
   @media (max-width: 800px) {
     padding: 20px;
   }
-`;
+`
