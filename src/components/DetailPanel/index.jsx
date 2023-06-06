@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { Panel, P, Em, Close, CloseWrapper, BG } from './styles'
-import Book from '../components/Book'
+import Book from '../Book'
 const DetailPanel = ({ book, closePanel, state }) => {
   const panelEl = useRef(null)
   const prevBook = useRef(null)
@@ -11,7 +11,7 @@ const DetailPanel = ({ book, closePanel, state }) => {
     }
     prevBook.current = book
   }, [book, prevBook])
-  console.log(state)
+
   return (
     <>
       <BG onClick={closePanel} $state={state} />
